@@ -1,0 +1,11 @@
+parameters:
+    database_driver: pdo_mysql
+    database_host: localhost
+    database_port: null
+    database_name: akeneo_pim
+    database_user: akeneo_pim
+    database_password: akeneo_pim
+    locale: en
+    secret: ThisTokenIsNotSoSecretChangeIt
+    installed: '2015-11-13T19:56:50+00:00'
+    installer_data: PimInstallerBundle:minimal

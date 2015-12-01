@@ -1,0 +1,1 @@
+<?php return unserialize('a:1:{i:0;C:48:"Oro\\Bundle\\SecurityBundle\\Annotation\\AclAncestor":60:{a:1:{i:0;s:42:"pim_enrich_attributegroup_remove_attribute";}}}');

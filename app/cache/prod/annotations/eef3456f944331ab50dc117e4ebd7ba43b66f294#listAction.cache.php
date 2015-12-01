@@ -1,0 +1,1 @@
+<?php return unserialize('a:1:{i:0;C:48:"Oro\\Bundle\\SecurityBundle\\Annotation\\AclAncestor":52:{a:1:{i:0;s:34:"pim_enrich_product_categories_view";}}}');

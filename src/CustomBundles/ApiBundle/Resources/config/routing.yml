@@ -1,0 +1,4 @@
+UpdatedProducts_api:
+    resource: '@ApiBundle/Controller/Rest/UpdatedProductsController.php'
+    type:   rest
+    prefix: api/rest/
