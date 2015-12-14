@@ -1,3 +1,0 @@
-parameters:
-    pim_connector.step.validator.class: Pim\Component\Connector\Step\ValidatorStep
-    pim_connector.step.tasklet.class:   Pim\Component\Connector\Step\TaskletStep

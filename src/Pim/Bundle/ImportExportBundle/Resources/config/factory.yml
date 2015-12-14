@@ -1,4 +1,0 @@
-services:
-    # deprecated: will be removed in 1.5
-    pim_import_export.factory.job_instance:
-        alias: akeneo_batch.job_instance_factory
