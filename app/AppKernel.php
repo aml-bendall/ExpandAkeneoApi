@@ -26,11 +26,9 @@ class AppKernel extends Kernel
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
-            $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();
-            $bundles[] = new CustomBundles\ApiBundle\ApiBundle();      
+            $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();      
  }
-
-        $bundles = array_merge(
+          $bundles = array_merge(
             $this->getSymfonyBundles(),
             $this->getOroDependencies(),
             $this->getOroBundles(),
@@ -92,6 +90,8 @@ class AppKernel extends Kernel
             new Pim\Bundle\PdfGeneratorBundle\PimPdfGeneratorBundle(),
             new Pim\Bundle\ReferenceDataBundle\PimReferenceDataBundle(),
             new Pim\Bundle\ConnectorBundle\PimConnectorBundle(),
+            new CustomBundles\ApiBundle\ApiBundle(),
+
         ];
     }
 

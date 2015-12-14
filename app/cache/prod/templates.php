@@ -338,4 +338,5 @@
   'PimEnrichBundle:Group:_history.html.twig' => '/var/www/html/pim-community-standard-v1.4.9/vendor/akeneo/pim-community-dev/src/Pim/Bundle/EnrichBundle/Resources/views/Group/_history.html.twig',
   'PimEnrichBundle:Group:_group.html.twig' => '/var/www/html/pim-community-standard-v1.4.9/vendor/akeneo/pim-community-dev/src/Pim/Bundle/EnrichBundle/Resources/views/Group/_group.html.twig',
   'PimPdfGeneratorBundle:Product:renderPdf.html.twig' => '/var/www/html/pim-community-standard-v1.4.9/vendor/akeneo/pim-community-dev/src/Pim/Bundle/PdfGeneratorBundle/Resources/views/Product/renderPdf.html.twig',
+  'ApiBundle:Default:index.html.twig' => '/var/www/html/pim-community-standard-v1.4.9/src/CustomBundles/ApiBundle/Resources/views/Default/index.html.twig',
 );

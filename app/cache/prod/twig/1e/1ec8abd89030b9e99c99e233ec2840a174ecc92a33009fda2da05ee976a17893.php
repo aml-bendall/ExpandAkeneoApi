@@ -47,10 +47,10 @@ class __TwigTemplate_7eaf1b3c54715ad4ae501174a7ed2b08c2f67963b6dd93975131082498c
         <div class=\"version-container muted\">
             ";
         // line 16
-        $this->loadTemplate("PimDashboardBundle:Dashboard:index.html.twig", "PimDashboardBundle:Dashboard:index.html.twig", 16, "2142398114")->display($context);
+        $this->loadTemplate("PimDashboardBundle:Dashboard:index.html.twig", "PimDashboardBundle:Dashboard:index.html.twig", 16, "850671095")->display($context);
         // line 17
         echo "            ";
-        $this->loadTemplate("PimDashboardBundle:Dashboard:index.html.twig", "PimDashboardBundle:Dashboard:index.html.twig", 17, "963232787")->display($context);
+        $this->loadTemplate("PimDashboardBundle:Dashboard:index.html.twig", "PimDashboardBundle:Dashboard:index.html.twig", 17, "1766739344")->display($context);
         // line 18
         echo "        </div>
     </div>
@@ -75,7 +75,7 @@ class __TwigTemplate_7eaf1b3c54715ad4ae501174a7ed2b08c2f67963b6dd93975131082498c
 
 
 /* PimDashboardBundle:Dashboard:index.html.twig */
-class __TwigTemplate_7eaf1b3c54715ad4ae501174a7ed2b08c2f67963b6dd93975131082498cd32b3_2142398114 extends Twig_Template
+class __TwigTemplate_7eaf1b3c54715ad4ae501174a7ed2b08c2f67963b6dd93975131082498cd32b3_850671095 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -115,7 +115,7 @@ class __TwigTemplate_7eaf1b3c54715ad4ae501174a7ed2b08c2f67963b6dd93975131082498c
 
 
 /* PimDashboardBundle:Dashboard:index.html.twig */
-class __TwigTemplate_7eaf1b3c54715ad4ae501174a7ed2b08c2f67963b6dd93975131082498cd32b3_963232787 extends Twig_Template
+class __TwigTemplate_7eaf1b3c54715ad4ae501174a7ed2b08c2f67963b6dd93975131082498cd32b3_1766739344 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {

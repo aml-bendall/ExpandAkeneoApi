@@ -1682,6 +1682,17 @@ class appProdUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirecta
 
         }
 
+        // oro_api_get_updatedproducts
+        if (0 === strpos($pathinfo, '/api/rest/updatedproducts') && preg_match('#^/api/rest/updatedproducts(?:\\.(?P<_format>json|xml|html))?$#s', $pathinfo, $matches)) {
+            if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                $allow = array_merge($allow, array('GET', 'HEAD'));
+                goto not_oro_api_get_updatedproducts;
+            }
+
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'oro_api_get_updatedproducts')), array (  '_controller' => 'CustomBundles\\ApiBundle\\Controller\\Rest\\UpdatedProductsController::getAction',  '_format' => 'json',));
+        }
+        not_oro_api_get_updatedproducts:
+
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();
     }
 }

@@ -50,7 +50,7 @@ class AccessListener implements ListenerInterface
     public function handle(GetResponseEvent $event)
     {
         if (null === $token = $this->tokenStorage->getToken()) {
-            throw new AuthenticationCredentialsNotFoundException('A Token was not found in the TokenStorage.');
+	 throw new AuthenticationCredentialsNotFoundException('A Token was not found in the TokenStorage. Token submitted was ' . $token);
         }
 
         $request = $event->getRequest();

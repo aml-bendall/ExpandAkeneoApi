@@ -35,7 +35,7 @@ class UpdatedProductsController extends FOSRestController
     public function getAction(Request $request)
     {
         $userContext       = $this->get('pim_user.context.user');
-       
-        return json_enocde('Hello World');
+
+        return new Response(json_encode('Hello World'));
     }
 }

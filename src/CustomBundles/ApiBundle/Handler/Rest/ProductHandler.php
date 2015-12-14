@@ -1,5 +1,5 @@
 <?php
-namespace Pim\Bundle\WebServiceBundle\Handler\Rest;
+namespace CustomBundles\ApiBundle\Handler\Rest;
 use Pim\Bundle\CatalogBundle\Model\ProductInterface;
 use Symfony\Component\Serializer\SerializerInterface;
 /**

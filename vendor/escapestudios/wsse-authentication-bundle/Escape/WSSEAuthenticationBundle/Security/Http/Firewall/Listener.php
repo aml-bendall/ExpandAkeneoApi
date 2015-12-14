@@ -66,7 +66,7 @@ class Listener implements ListenerInterface
 
         $ae_message = null;
         $this->wsseHeader = $request->headers->get('X-WSSE');
-        $wsseHeaderInfo = $this->parseHeader();
+	$wsseHeaderInfo = $this->parseHeader();
 
         if($wsseHeaderInfo !== false)
         {
@@ -74,7 +74,7 @@ class Listener implements ListenerInterface
                 $wsseHeaderInfo['Username'],
                 $wsseHeaderInfo['PasswordDigest'],
                 $this->providerKey
-            );
+            );		
 
             $token->setAttribute('nonce', $wsseHeaderInfo['Nonce']);
             $token->setAttribute('created', $wsseHeaderInfo['Created']);
@@ -134,7 +134,7 @@ class Listener implements ListenerInterface
             $result['PasswordDigest'] = $this->parseValue('PasswordDigest');
             $result['Nonce'] = $this->parseValue('Nonce');
             $result['Created'] = $this->parseValue('Created');
-        }
+}
         catch(UnexpectedValueException $e)
         {
             return false;

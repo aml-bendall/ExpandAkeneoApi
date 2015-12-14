@@ -71,11 +71,11 @@
       <parameter key="PimPdfGeneratorBundle">Pim\Bundle\PdfGeneratorBundle\PimPdfGeneratorBundle</parameter>
       <parameter key="PimReferenceDataBundle">Pim\Bundle\ReferenceDataBundle\PimReferenceDataBundle</parameter>
       <parameter key="PimConnectorBundle">Pim\Bundle\ConnectorBundle\PimConnectorBundle</parameter>
+      <parameter key="ApiBundle">CustomBundles\ApiBundle\ApiBundle</parameter>
       <parameter key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</parameter>
       <parameter key="SensioDistributionBundle">Sensio\Bundle\DistributionBundle\SensioDistributionBundle</parameter>
       <parameter key="SensioGeneratorBundle">Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle</parameter>
       <parameter key="DebugBundle">Symfony\Bundle\DebugBundle\DebugBundle</parameter>
-      <parameter key="ApiBundle">CustomBundles\ApiBundle\ApiBundle</parameter>
     </parameter>
     <parameter key="kernel.charset">UTF-8</parameter>
     <parameter key="kernel.container_class">appDevDebugProjectContainer</parameter>
@@ -11101,12 +11101,12 @@
         <argument type="service" id="escape_wsse_authentication.provider.wsse_secured"/>
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>565dccf397dbd0.59206902</argument>
+            <argument>565e0fb3573b40.50481004</argument>
           </service>
         </argument>
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>565dccf397dbd0.59206902</argument>
+            <argument>565e0fb3573b40.50481004</argument>
           </service>
         </argument>
         <argument type="service">
@@ -11387,7 +11387,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>565dccf397dbd0.59206902</argument>
+            <argument>565e0fb3573b40.50481004</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -11425,7 +11425,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>565dccf397dbd0.59206902</argument>
+            <argument>565e0fb3573b40.50481004</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -13503,11 +13503,11 @@
         <argument key="PimPdfGeneratorBundle">Pim\Bundle\PdfGeneratorBundle\PimPdfGeneratorBundle</argument>
         <argument key="PimReferenceDataBundle">Pim\Bundle\ReferenceDataBundle\PimReferenceDataBundle</argument>
         <argument key="PimConnectorBundle">Pim\Bundle\ConnectorBundle\PimConnectorBundle</argument>
+        <argument key="ApiBundle">CustomBundles\ApiBundle\ApiBundle</argument>
         <argument key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</argument>
         <argument key="SensioDistributionBundle">Sensio\Bundle\DistributionBundle\SensioDistributionBundle</argument>
         <argument key="SensioGeneratorBundle">Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle</argument>
         <argument key="DebugBundle">Symfony\Bundle\DebugBundle\DebugBundle</argument>
-        <argument key="ApiBundle">CustomBundles\ApiBundle\ApiBundle</argument>
       </argument>
     </service>
     <service id="fos_js_routing.controller" class="FOS\JsRoutingBundle\Controller\Controller">
@@ -23711,11 +23711,11 @@
               <argument key="PimPdfGeneratorBundle">Pim\Bundle\PdfGeneratorBundle\PimPdfGeneratorBundle</argument>
               <argument key="PimReferenceDataBundle">Pim\Bundle\ReferenceDataBundle\PimReferenceDataBundle</argument>
               <argument key="PimConnectorBundle">Pim\Bundle\ConnectorBundle\PimConnectorBundle</argument>
+              <argument key="ApiBundle">CustomBundles\ApiBundle\ApiBundle</argument>
               <argument key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</argument>
               <argument key="SensioDistributionBundle">Sensio\Bundle\DistributionBundle\SensioDistributionBundle</argument>
               <argument key="SensioGeneratorBundle">Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle</argument>
               <argument key="DebugBundle">Symfony\Bundle\DebugBundle\DebugBundle</argument>
-              <argument key="ApiBundle">CustomBundles\ApiBundle\ApiBundle</argument>
             </argument>
             <argument type="collection">
               <argument>Controller</argument>
@@ -23792,11 +23792,11 @@
               <argument key="PimPdfGeneratorBundle">Pim\Bundle\PdfGeneratorBundle\PimPdfGeneratorBundle</argument>
               <argument key="PimReferenceDataBundle">Pim\Bundle\ReferenceDataBundle\PimReferenceDataBundle</argument>
               <argument key="PimConnectorBundle">Pim\Bundle\ConnectorBundle\PimConnectorBundle</argument>
+              <argument key="ApiBundle">CustomBundles\ApiBundle\ApiBundle</argument>
               <argument key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</argument>
               <argument key="SensioDistributionBundle">Sensio\Bundle\DistributionBundle\SensioDistributionBundle</argument>
               <argument key="SensioGeneratorBundle">Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle</argument>
               <argument key="DebugBundle">Symfony\Bundle\DebugBundle\DebugBundle</argument>
-              <argument key="ApiBundle">CustomBundles\ApiBundle\ApiBundle</argument>
             </argument>
           </service>
         </argument>
@@ -27429,11 +27429,11 @@
         <argument key="PimPdfGeneratorBundle">Pim\Bundle\PdfGeneratorBundle\PimPdfGeneratorBundle</argument>
         <argument key="PimReferenceDataBundle">Pim\Bundle\ReferenceDataBundle\PimReferenceDataBundle</argument>
         <argument key="PimConnectorBundle">Pim\Bundle\ConnectorBundle\PimConnectorBundle</argument>
+        <argument key="ApiBundle">CustomBundles\ApiBundle\ApiBundle</argument>
         <argument key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</argument>
         <argument key="SensioDistributionBundle">Sensio\Bundle\DistributionBundle\SensioDistributionBundle</argument>
         <argument key="SensioGeneratorBundle">Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle</argument>
         <argument key="DebugBundle">Symfony\Bundle\DebugBundle\DebugBundle</argument>
-        <argument key="ApiBundle">CustomBundles\ApiBundle\ApiBundle</argument>
       </argument>
     </service>
     <service id="pim_user.view_element.visibility_checker.groups_and_roles" class="Pim\Bundle\UserBundle\ViewElement\Checker\GroupsAndRolesVisibilityChecker"/>
@@ -27624,11 +27624,11 @@
         <argument key="PimPdfGeneratorBundle">Pim\Bundle\PdfGeneratorBundle\PimPdfGeneratorBundle</argument>
         <argument key="PimReferenceDataBundle">Pim\Bundle\ReferenceDataBundle\PimReferenceDataBundle</argument>
         <argument key="PimConnectorBundle">Pim\Bundle\ConnectorBundle\PimConnectorBundle</argument>
+        <argument key="ApiBundle">CustomBundles\ApiBundle\ApiBundle</argument>
         <argument key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</argument>
         <argument key="SensioDistributionBundle">Sensio\Bundle\DistributionBundle\SensioDistributionBundle</argument>
         <argument key="SensioGeneratorBundle">Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle</argument>
         <argument key="DebugBundle">Symfony\Bundle\DebugBundle\DebugBundle</argument>
-        <argument key="ApiBundle">CustomBundles\ApiBundle\ApiBundle</argument>
       </argument>
       <argument>/var/www/html/pim-community-standard-v1.4.9/app/cache/dev</argument>
       <argument>true</argument>
@@ -38311,6 +38311,10 @@
         <argument>PimPdfGenerator</argument>
       </call>
       <call method="addPath">
+        <argument>/var/www/html/pim-community-standard-v1.4.9/src/CustomBundles/ApiBundle/Resources/views</argument>
+        <argument>Api</argument>
+      </call>
+      <call method="addPath">
         <argument>/var/www/html/pim-community-standard-v1.4.9/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views</argument>
         <argument>WebProfiler</argument>
       </call>
@@ -38321,10 +38325,6 @@
       <call method="addPath">
         <argument>/var/www/html/pim-community-standard-v1.4.9/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>
         <argument>Debug</argument>
-      </call>
-      <call method="addPath">
-        <argument>/var/www/html/pim-community-standard-v1.4.9/src/CustomBundles/ApiBundle/Resources/views</argument>
-        <argument>Api</argument>
       </call>
       <call method="addPath">
         <argument>/var/www/html/pim-community-standard-v1.4.9/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form</argument>
@@ -38504,11 +38504,11 @@
                       <argument key="Pim\Bundle\PdfGeneratorBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/akeneo/pim-community-dev/src/Pim/Bundle/PdfGeneratorBundle/Resources/config/serializer</argument>
                       <argument key="Pim\Bundle\ReferenceDataBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/akeneo/pim-community-dev/src/Pim/Bundle/ReferenceDataBundle/Resources/config/serializer</argument>
                       <argument key="Pim\Bundle\ConnectorBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/akeneo/pim-community-dev/src/Pim/Bundle/ConnectorBundle/Resources/config/serializer</argument>
+                      <argument key="CustomBundles\ApiBundle">/var/www/html/pim-community-standard-v1.4.9/src/CustomBundles/ApiBundle/Resources/config/serializer</argument>
                       <argument key="Symfony\Bundle\WebProfilerBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/config/serializer</argument>
                       <argument key="Sensio\Bundle\DistributionBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/config/serializer</argument>
                       <argument key="Sensio\Bundle\GeneratorBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/config/serializer</argument>
                       <argument key="Symfony\Bundle\DebugBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/config/serializer</argument>
-                      <argument key="CustomBundles\ApiBundle">/var/www/html/pim-community-standard-v1.4.9/src/CustomBundles/ApiBundle/Resources/config/serializer</argument>
                     </argument>
                   </service>
                 </argument>
@@ -38582,11 +38582,11 @@
                       <argument key="Pim\Bundle\PdfGeneratorBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/akeneo/pim-community-dev/src/Pim/Bundle/PdfGeneratorBundle/Resources/config/serializer</argument>
                       <argument key="Pim\Bundle\ReferenceDataBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/akeneo/pim-community-dev/src/Pim/Bundle/ReferenceDataBundle/Resources/config/serializer</argument>
                       <argument key="Pim\Bundle\ConnectorBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/akeneo/pim-community-dev/src/Pim/Bundle/ConnectorBundle/Resources/config/serializer</argument>
+                      <argument key="CustomBundles\ApiBundle">/var/www/html/pim-community-standard-v1.4.9/src/CustomBundles/ApiBundle/Resources/config/serializer</argument>
                       <argument key="Symfony\Bundle\WebProfilerBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/config/serializer</argument>
                       <argument key="Sensio\Bundle\DistributionBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/config/serializer</argument>
                       <argument key="Sensio\Bundle\GeneratorBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/config/serializer</argument>
                       <argument key="Symfony\Bundle\DebugBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/config/serializer</argument>
-                      <argument key="CustomBundles\ApiBundle">/var/www/html/pim-community-standard-v1.4.9/src/CustomBundles/ApiBundle/Resources/config/serializer</argument>
                     </argument>
                   </service>
                 </argument>
@@ -38660,11 +38660,11 @@
                       <argument key="Pim\Bundle\PdfGeneratorBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/akeneo/pim-community-dev/src/Pim/Bundle/PdfGeneratorBundle/Resources/config/serializer</argument>
                       <argument key="Pim\Bundle\ReferenceDataBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/akeneo/pim-community-dev/src/Pim/Bundle/ReferenceDataBundle/Resources/config/serializer</argument>
                       <argument key="Pim\Bundle\ConnectorBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/akeneo/pim-community-dev/src/Pim/Bundle/ConnectorBundle/Resources/config/serializer</argument>
+                      <argument key="CustomBundles\ApiBundle">/var/www/html/pim-community-standard-v1.4.9/src/CustomBundles/ApiBundle/Resources/config/serializer</argument>
                       <argument key="Symfony\Bundle\WebProfilerBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/config/serializer</argument>
                       <argument key="Sensio\Bundle\DistributionBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/config/serializer</argument>
                       <argument key="Sensio\Bundle\GeneratorBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle/Resources/config/serializer</argument>
                       <argument key="Symfony\Bundle\DebugBundle">/var/www/html/pim-community-standard-v1.4.9/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/config/serializer</argument>
-                      <argument key="CustomBundles\ApiBundle">/var/www/html/pim-community-standard-v1.4.9/src/CustomBundles/ApiBundle/Resources/config/serializer</argument>
                     </argument>
                   </service>
                 </argument>
